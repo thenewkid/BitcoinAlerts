@@ -1,6 +1,6 @@
-package com.bitcoin.alerts.CryptoCurrencyNotify;
-
+package dannen.crypto.notify.CryptoCurrencyNotify;
 import org.junit.Test;
+
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
