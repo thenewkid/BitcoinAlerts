@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html xmlns:th="www.thymeleaf.org">
-<head>
-<meta charset="ISO-8859-1" />
-<title>Insert title here</title>
-</head>
-<body>
-<h1> We did it</h1>
-</body>
+    <head th:replace="fragments/base_fragments :: head">
+    </head>
+    <body>
+        <header th:replace="fragments/base_fragments :: header">
+        </header>
+
+        <footer th:replace="fragments/base_fragments :: footer">
+
+        </footer>
+    </body>
 </html>
